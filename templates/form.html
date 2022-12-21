@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+{% endblock styles %}
+{% block content %}
+
+<nav>
+  <h1>NWP Mushroom Classifier</h1>
+</nav>
+<div class="form-wrapper">
+  <div class="guide">
+    <ul>
+      <h2>How To Use</h2>
+      <li>1. Update the form options as desired</li>
+      <li>2. Press "classify"</li>
+      <li>3. To run another test, return to previous page</li>
+
+    </ul>
+    <ul>
+      <li>Gill-Color: Black</li>
+      <li>Population: Abundant</li>
+      <li>Spore-Print-Color: Black</li>
+      <li>Bruises: False</li>
+      <li>Stalk-Root: Equal</li>
+    </ul>
+    <ul>
+      <li>Gill-Color: Purple</li>
+      <li>Population: Solitary</li>
+      <li>Spore-Print-Color: Black</li>
+      <li>Bruises: True</li>
+      <li>Stalk-Root: Bulbous</li>
+    </ul>
+  </div>
+  <form class="form" action="{{ url_for("gfg")}}" method="post">
+    <p>Gill-Color</p>
+    <select id="gill-color" name="gc">
+      <option value="0">Buff</option>
+      <option value="1">Red</option>
+      <option value="2">Gray</option>
+      <option value="3">Chocolate</option>
+      <option value="4">Black</option>
+      <option value="5">Brown</option>
+      <option value="6">Orange</option>
+      <option value="7">Pink</option>
+      <option value="8">Green</option>
+      <option value="9">Purple</option>
+      <option value="10">White</option>
+      <option value="11">Yellow</option>
+    </select>
+    <p>Population</p>
+    <select id="population" name="pop"> 
+      <option value="0">Abundant</option>
+      <option value="1">Clustered</option>
+      <option value="2">Numerous</option>
+      <option value="3">Scattered</option>
+      <option value="4" selected>Several</option>
+      <option value="5">Solitary</option>
+    </select>
+    <p>Spore-Print-Color</p>
+    <select id="spore-print-color" name="spc">
+      <option value="0">Buff</option>
+      <option value="1">Chocolate</option>
+      <option value="2">Black</option>
+      <option value="3">Brown</option>
+      <option value="4">Orange</option>
+      <option value="5">Green</option>
+      <option value="6">Purple</option>
+      <option value="7" selected>White</option>
+      <option value="8">Yellow</option>
+    </select>
+    <p>Bruises</p>
+    <select id="bruises" name="bs">
+      <option value="0">False</option>
+      <option value="1">True</option>
+    </select>
+    <p>Stalk-Root</p>
+    <select id="stalk-root" name="sr">
+      <option value="0">Missing</option>
+      <option value="1">Bulbous</option>
+      <option value="2">Club</option>
+      <option value="3">Equal</option>
+      <option value="4">Rooted</option>
+    </select>
+    <button type="submit" class="btn">PREDICT CLASS</button>
+  </form>
+</div>
+
+
+<div class="img-wrapper">
+  <h2>Visualize the data &#8595;</h2>
+  <img src="static/img/evp.png" alt="">
+  <h3>Heat map showing significane of each characteristic for classification</h3>
+  <img src="static/img/hm.png" alt="">
+  <h3>Gill Color</h3>
+  <img src="static/img/gc.png" alt="">
+  <h3>Population</h3>
+  <img src="static/img/pop.png" alt="">
+  <h3>Spore Print Color</h3>
+  <img src="static/img/spc.png" alt="">
+  <h3>Bruising</h3>
+  <img src="static/img/br.png" alt="">
+  <h3>Stalk Root</h3>
+  <img src="static/img/sr.png" alt="">
+</div>
+
+{% endblock content %}
