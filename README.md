@@ -1,4 +1,4 @@
-🍄 Mushroom Classifier 🍄
+🍄 Mushroom Classifier
 This project explored whether it is possible to make a web app that reliably classifies mushrooms as edible or poisonous. The final result can be viewed at:
 https://c964.pythonanywhere.com 
 
@@ -22,5 +22,5 @@ You can then run the code by executing the main.py file.
 📚 Conclusion
 This project demonstrates that machine learning can be a powerful tool in identifying mushrooms as edible or poisonous. However, further research is needed to determine the generalizability of the results and to develop more robust and accurate models.
 
-🍄 Happy (and safe) mushroom hunting! 🍄
+🍄 Happy (and safe) mushroom hunting! 
 Note: This is just a simulation, it's important to always consult a professional mycologist and/or a local expert before consuming any wild mushroom. Some mushrooms are quite similar and require a professional to tell them apart.
