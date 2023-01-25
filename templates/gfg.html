@@ -1,33 +1,28 @@
 {% extends 'base.html' %}
-{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
 {% endblock styles %}
 {% block content %}
 
 <nav>
-  <h1>NWP Mushroom Classifier</h1>
+  <h1>Mushroom Classifier Prototype</h1>
 </nav>
 <div class="form-wrapper">
   <div class="guide">
-    <ul>
+    <ol>
       <h2>How To Use</h2>
-      <li>1. Update the form options as desired</li>
-      <li>2. Press "classify"</li>
-      <li>3. To run another test, return to previous page</li>
-
-    </ul>
+      <li>Update the form options as desired</li>
+      <li>Press "classify"</li>
+      <li>To run another test, return to previous page</li>
+      <li>Scroll down to visualize data!</li>
+    </ol>
     <ul>
-      <li>Gill-Color: Black</li>
-      <li>Population: Abundant</li>
-      <li>Spore-Print-Color: Black</li>
-      <li>Bruises: False</li>
-      <li>Stalk-Root: Equal</li>
-    </ul>
-    <ul>
-      <li>Gill-Color: Purple</li>
-      <li>Population: Solitary</li>
-      <li>Spore-Print-Color: Black</li>
-      <li>Bruises: True</li>
-      <li>Stalk-Root: Bulbous</li>
+      <h2>Example Attribute Combinations:</h2>
+      <li><strong>Gill-Color:</strong> Purple</li>
+      <li><strong>Population: </strong> Solitary</li>
+      <li><strong>Spore-Print-Color:</strong> Black</li>
+      <li><strong>Bruises:</strong> True</li>
+      <li><strong>Stalk-Root:</strong> Bulbous</li>
     </ul>
   </div>
   <form class="form" action="{{ url_for("gfg")}}" method="post">
@@ -90,6 +85,13 @@
   <img src="static/img/evp.png" alt="">
   <h3>Heat map showing significane of each characteristic for classification</h3>
   <img src="static/img/hm.png" alt="">
+  <h3>Violin plot compares all characteristics and their attributes by class.
+    <br> 
+    Red corresponds to poisonous, green to edible. 
+    <br>
+    The numeric values correspond to the order of the form attribue options. 
+  </h3>
+  <img src="static/img/vp.png" alt="">
   <h3>Gill Color</h3>
   <img src="static/img/gc.png" alt="">
   <h3>Population</h3>
@@ -100,6 +102,7 @@
   <img src="static/img/br.png" alt="">
   <h3>Stalk Root</h3>
   <img src="static/img/sr.png" alt="">
+  
 </div>
 
 {% endblock content %}

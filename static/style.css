@@ -2,6 +2,8 @@ body {
   background-color: rgb(217, 217, 217);
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 nav {
@@ -16,17 +18,21 @@ nav {
 }
 
 .form-wrapper {
+  margin-top: 30px;
   width: 100vw;
   display: flex; 
   justify-content: space-evenly;
-  text-align: center;
+  text-align: start;
   flex-wrap: wrap;
   align-items: center;
 }
 
 ul {
-  list-style-type: none;
   text-align: start;
+}
+
+li {
+  padding: 7px;
 }
 
 
@@ -41,16 +47,25 @@ select {
 
 p {
   font-size: 18px;
+  font-weight: bold;
 }
 
 button {
-  padding: 5px; 
+  padding: 8px; 
   background-color: royalblue;
-  color: white;
-  font-size: 20px;
-  outline: none;
-  font-weight: bold;
-  margin: 5px;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 .img-wrapper {
@@ -65,4 +80,8 @@ button {
 img {
   max-width: 1200px;
   margin: 10px;
+}
+
+h3 {
+  text-align: center;
 }
