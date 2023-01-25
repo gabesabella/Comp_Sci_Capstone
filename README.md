@@ -1,5 +1,6 @@
 🍄 Mushroom Classifier 🍄
-This project explored the extent to which machine learning can be used to identify mushrooms as edible or poisonous. The final project can be viewed at 
+This project explored whether it is possible to make a web app that reliably classifies mushrooms as edible or poisonous. The final result can be viewed at:
+https://c964.pythonanywhere.com 
 
 📚 Data
 The dataset used in this project contains information on various characteristics of mushrooms, such as cap color, cap shape, and stalk color. The mushrooms are labeled as either edible or poisonous.
