@@ -1,26 +1,21 @@
-🍄 Mushroom Classifier
-This project explored whether it is possible to make a web app that reliably classifies mushrooms as edible or poisonous. The final result can be viewed at:
-https://c964.pythonanywhere.com 
+<h1> C964 - Capstone Project </h1>
 
-📚 Data
-The dataset used in this project contains information on various characteristics of mushrooms, such as cap color, cap shape, and stalk color. The mushrooms are labeled as either edible or poisonous.
+<h2> Description </h2>
+<p>
+    C964 is the capstone project for the computer science bachelors program at Western Governors University. The project explores the extent to which machine learning can be used to accurately classify mushrooms as edible or poisonous based on entered mushroom attributes. The end goal is to create a web application that can theoretically be used by mushroom foragers, if the results are compelling enough. The detailed write up can be found in the provided <a href="written_portion.pdf">written_portion.pdf</a>
+</p>
 
-🧠 Methodology
-The project uses various machine learning algorithms, including decision trees, random forests, and neural networks, to classify the mushrooms. The performance of each algorithm is evaluated using metrics such as accuracy and precision.
+<h2> Topic </h2>
+<p>
+    The project's topic is to classify mushrooms as edible or poisonous by using machine learning algorithms. This is done by analyzing different characteristics of the mushrooms.
+</p>
 
-📈 Results
-The results show that machine learning can be highly effective in identifying mushrooms as edible or poisonous, with some algorithms achieving an accuracy of over 99%. However, it is important to note that the dataset used in this project may not be representative of all mushrooms and further research is needed to determine the generalizability of the results.
+<h2> Data </h2>
+<p>
+    The data used in this project is <a href="mushrooms.csv">mushrooms.csv</a>, a collection of over 8,000 mushroom species, classified as edible or poisonous, along with 22 of their attributes ranging from cap shape to odor.
+</p>
 
-🔧 Usage
-To run the code, you will need to have Python and the following libraries installed:
-
-Pandas
-Scikit-learn
-Keras
-You can then run the code by executing the main.py file.
-
-📚 Conclusion
-This project demonstrates that machine learning can be a powerful tool in identifying mushrooms as edible or poisonous. However, further research is needed to determine the generalizability of the results and to develop more robust and accurate models.
-
-🍄 Happy (and safe) mushroom hunting! 
-Note: This is just a simulation, it's important to always consult a professional mycologist and/or a local expert before consuming any wild mushroom. Some mushrooms are quite similar and require a professional to tell them apart.
+<h2> Directions </h2>
+<p>
+    To use the final application, simply visit <a href="c964.pythonanywhere.com">c964.pythonanywhere.com</a>, no installations are needed. Test different combinations of characteristics and see how well the algorithm predicts the class of the mushroom.
+</p>
