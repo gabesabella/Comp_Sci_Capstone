@@ -17,5 +17,5 @@
 
 <h2> Directions </h2>
 <p>
-    To use the final application, simply visit <a href="c964.pythonanywhere.com">c964.pythonanywhere.com</a>, no installations are needed. Test different combinations of characteristics and see how well the algorithm predicts the class of the mushroom.
+    To use the final application, simply visit <a href="https://www.c964.pythonanywhere.com">c964.pythonanywhere.com</a>, no installations are needed. Test different combinations of characteristics and see how well the algorithm predicts the class of the mushroom.
 </p>
