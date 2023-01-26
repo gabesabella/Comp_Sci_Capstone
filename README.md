@@ -12,7 +12,7 @@
 
 <h2> Data </h2>
 <p>
-    The data used in this project is <a href="mushrooms.csv">mushrooms.csv</a>, a collection of over 8,000 mushroom species, classified as edible or poisonous, along with 22 of their attributes ranging from cap shape to odor.
+    The data used in this project is <a href="https://archive.ics.uci.edu/ml/datasets/mushroom">mushrooms.csv</a>, a collection of over 8,000 mushroom species, classified as edible or poisonous, along with 22 of their attributes ranging from cap shape to odor.
 </p>
 
 <h2> Directions </h2>
