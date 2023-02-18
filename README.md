@@ -2,7 +2,7 @@
 
 <h2> Description </h2>
 <p>
-    C964 is the capstone project for the computer science bachelors program at Western Governors University. The project explores the extent to which machine learning can be used to accurately classify mushrooms as edible or poisonous based on entered mushroom attributes. The end goal is to create a web application that can theoretically be used by mushroom foragers, if the results are compelling enough. A PDF of the <a href="written_portion.pdf">detailed write up</a> and the <a href="jupyter.ipynb">Jupyter Notbook</a> used to explore data can both be viewed in the root directory.
+    This is my capstone project for the computer science bachelors program at Western Governors University. The project explores the extent to which machine learning can be used to accurately classify mushrooms as edible or poisonous based on entered mushroom attributes. The end goal is to create a web application that can theoretically be used by mushroom foragers, if the results are compelling enough. A PDF of the <a href="written_portion.pdf">detailed write up</a> and the <a href="jupyter.ipynb">Jupyter Notbook</a> used to explore data can both be viewed in the root directory.
 
 <h2> Topic </h2>
 <p>
